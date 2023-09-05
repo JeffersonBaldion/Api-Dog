@@ -15,7 +15,9 @@ const deleteDog = require('../controllers/deleteDog')
 const router = Router();
 
 
-
+router.get('/', (req, res)=>{
+    return res.send("Hello World")
+})
 router.get('/dogs', getDogs)
 router.post('/dogs', postDogs)
 router.get('/dogs/name', getDogName)
