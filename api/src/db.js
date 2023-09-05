@@ -5,7 +5,7 @@ const DogModel = require('./models/Dog')
 const TemperamentModel = require('./models/Temperaments')
 
 const sequelize = new Sequelize(
-    `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/dogdatabase`,
+    `postgres://dogdatabase_0vag_user:qoypINbBwAMs59w2b0Q4glywuKpWbeDi@dpg-cjrqnegjbais73f9tsvg-a/dogdatabase_0vag`,
     { logging: false, native: false }
  );
 
@@ -23,3 +23,5 @@ temperament.belongsToMany(dog, { through: 'dog_temperament' });
     temperament,
     conn: sequelize,
  }
+
+ 
