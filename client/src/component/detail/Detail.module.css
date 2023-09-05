@@ -1,0 +1,46 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: min-content;
+    width :700px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.name{
+    background-color: #f1be14;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.infoCard{
+    display: flex;
+}
+
+.left{
+    background-color: #f5cc45;
+    border-right: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.48) 0px 0px 16px 0px;
+    
+}
+.image{
+    height:auto;
+    width: 400px;
+}
+
+.right{
+    display: flex;
+    align-items:center ;
+    font-style: italic;
+    font-weight: lighter;
+
+}

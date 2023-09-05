@@ -1,0 +1,128 @@
+.formContainer{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #FAEFD5;
+    border-radius: 30px;
+    width: 40%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center ;
+    background: linear-gradient(to bottom left,  #F1BE14, #EDA611 )
+
+  }
+
+  .form p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+
+  }
+
+  .name{
+    text-align: center;
+    border-radius: 30px;
+    border: 0;
+    width: 70%;
+    height: 40px;
+    background-color: #FFCC70;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
+
+.min_max{
+  text-align: center;
+  border-radius: 30px;
+  border: 0;
+  width: 50px;
+  height: 40px;
+  background-color: #FFCC70;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}  
+
+.life{
+  text-align: center;
+  border-radius: 30px;
+  border: 0;
+  width: 70%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #FFCC70;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.temperamentos{
+  
+  text-align: center;
+  border-radius: 30px;
+  border: 0;
+  width: 50%;
+  height: 60px;
+  margin-top: 5px;
+  background-color: #FFCC70;
+}
+
+.temperamentos option{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.temperamentContainer{
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 60%;
+  min-height: 60px;
+  height: min-content;
+  border-radius: 30px;
+  background-color: #FAEFD5;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.temperamentContainer input{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin: 5px;
+  text-align: center;
+  border-radius: 30px;
+  border: 0;
+  width: min-content;
+  height: 40px;
+  background-color: #EDA611;
+  color: #FAEFD5;
+}
+.temperamentContainer input:hover {
+  transform: scale(1.05);
+}
+
+.form button {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: oblique;
+  border-radius: 30px;
+  border: 0;
+  width: 70%;
+  height: 40px;
+  margin: 10px;
+  background-color: #FAEFD5;
+  color: #F98E07;
+  cursor: pointer;
+}
+
+.form button:hover{
+  transform: scale(1.05);
+}

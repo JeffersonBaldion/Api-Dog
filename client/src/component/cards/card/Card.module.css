@@ -1,0 +1,92 @@
+.card{
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: 20px;
+    
+    
+    
+}
+.flipCard{
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.card:hover .flipCard{
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-color: #FAEFD5;
+    color: black;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    height: 50px;
+    background-color: #f5cc45;
+}
+
+.back{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e8d7c1;
+    color: #72655c;
+    transform: rotateY(180deg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    
+}
+
+.imagen{
+    height: 200px;
+    width: auto;
+    
+}
+
+.info{
+    color: #643c19;
+    padding-right: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons button{
+    color: #e8d7c1;
+    background-color: #643c19;;
+    height: 30px;
+    width: 60px;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    cursor: pointer;
+}
