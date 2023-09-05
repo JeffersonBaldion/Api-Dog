@@ -1,7 +1,7 @@
 const {conn} = require('./db')
 const server = require('./app')
 const getTemperaments = require('./controllers/getTemperaments')
-const PORT = proccess.env.PORT || 3001
+const PORT = process.env.PORT || 3001
 
 
 
