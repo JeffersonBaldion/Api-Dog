@@ -10,6 +10,7 @@ import Create from './component/create/Create'
 import Navbar from './component/Navbar/Navbar'
 import Footer from './component/Footer/Footer'
 import Search from './component/search/Search'
+import style from './App.module.css'
 
 function App() {
 
