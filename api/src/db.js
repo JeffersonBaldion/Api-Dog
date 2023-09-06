@@ -5,7 +5,7 @@ const DogModel = require('./models/Dog')
 const TemperamentModel = require('./models/Temperaments')
 
 const sequelize = new Sequelize(
-    `postgres://dogdatabase_0vag_user:qoypINbBwAMs59w2b0Q4glywuKpWbeDi@dpg-cjrqnegjbais73f9tsvg-a/dogdatabase_0vag`,
+    `postgres://dogdatabase_0vag_user:qoypINbBwAMs59w2b0Q4glywuKpWbeDi@dpg-cjrqnegjbais73f9tsvg-a.oregon-postgres.render.com/dogdatabase_0vag`,
     { logging: false, native: false }
  );
 

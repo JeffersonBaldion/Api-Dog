@@ -11,7 +11,7 @@ export const DELETE_DOG = 'DELETE_DOG'
 export const GET_ENERGETIC = 'GET_ENERGETIC'
 
 export function getDogs() {
-  const endpoint = `http://localhost:3001/dogs`;
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs`;
 
   return (dispatch) => {
     axios(endpoint).then(({ data }) => {
@@ -23,7 +23,7 @@ export function getDogs() {
   };
 }
 export function postDogs(dog) {
-  const endpoint = "http://localhost:3001/dogs";
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs`;
 
   return (dispatch) => {
     axios
@@ -41,7 +41,7 @@ export function postDogs(dog) {
   };
 }
 export function deleteDog(id){
-  const endpoint = `http://localhost:3001/dogs/${id}`;
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs/${id}`;
 
   return(dispatch) => {
     axios.delete(endpoint).then(({data}) => {
@@ -56,7 +56,7 @@ export function deleteDog(id){
   }
 }
 export function getTemperaments() {
-  const endpoint = "http://localhost:3001/temperaments";
+  const endpoint = `https://exampledeploy-as65.onrender.com/temperaments`;
 
   return (dispatch) => {
     axios(endpoint).then(({ data }) => {
@@ -68,7 +68,7 @@ export function getTemperaments() {
   };
 }
 export function getSearch(name) {
-  const endpoint = `http://localhost:3001/dogs/name?name=${name}`;
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs/name?name=${name}`;
 
   return (dispatch) => {
     axios(endpoint).then(({ data }) => {
@@ -80,7 +80,7 @@ export function getSearch(name) {
   };
 }
 export function getDogDetail(id) {
-  const endpoint = `http://localhost:3001/dogs/${id}`;
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs/${id}`;
 
   return (dispatch) => {
     axios(endpoint).then(({ data }) => {
@@ -101,7 +101,7 @@ export function cleanDetail() {
   };
 }
 export function filterDogs(filter) {
-  const endpoint = "http://localhost:3001/dogs";
+  const endpoint = `https://exampledeploy-as65.onrender.com/dogs`;
   function sort_name(a, b) {
     if (a.name.toLowerCase() < b.name.toLowerCase()) {
       return -1;

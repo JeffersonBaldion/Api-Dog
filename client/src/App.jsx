@@ -1,4 +1,3 @@
-import style from './App.css'
 import {Route, Routes, useLocation} from 'react-router-dom'
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
