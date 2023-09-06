@@ -9,10 +9,10 @@ const sequelize = new Sequelize(
   {
     logging: false,
     native: false,
-    ssl: true,
     dialectOptions: {
       ssl: {
         require: true, // Requiere una conexión SSL/TLS
+        rejectUnauthorized: false,
       },
     },
   }
